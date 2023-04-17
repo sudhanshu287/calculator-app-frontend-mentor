@@ -1,6 +1,6 @@
 let allButton = document.querySelectorAll(".numbers");
 let allButtonSpread = [...allButton];
-let calcDisplay = document.querySelector(".calc-display");
+let calcDisplay = document.querySelector(".calc__display");
 let deleteButton = document.querySelector(".delete");
 let resetButton = document.querySelector(".reset");
 let resultButton = document.querySelector(".equal");

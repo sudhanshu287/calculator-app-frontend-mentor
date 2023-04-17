@@ -77,11 +77,11 @@ main {
   justify-content: center;
   align-items: center;
 }
-.app-container {
+.app__container {
   margin: 2rem 1rem;
   width: 100%;
 }
-.calc-header {
+.calc__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,18 +91,18 @@ main {
   font-size: var(--font-size-2);
   font-weight: var(--font-wgt-700);
 }
-.theme-container {
+.theme__container {
   display: flex;
   gap: 20px;
 }
-.theme-title {
+.theme__title {
   align-self: flex-end;
   font-size: var(--font-size-4);
   font-weight: var(--font-wgt-600);
   letter-spacing: 1.4px;
 }
 
-.theme-numbers {
+.theme__numbers {
   display: flex;
   justify-content: space-between;
   gap: 4px;
@@ -111,7 +111,7 @@ main {
   padding: 4px 10px;
 }
 
-.theme-change {
+.theme__change {
   display: flex;
   justify-content: space-between;
   gap: 4px;
@@ -120,7 +120,7 @@ main {
   padding: 4px 8px;
   border-radius: 20px;
 }
-.theme-change .btn {
+.theme__change .btn {
   border-radius: 50px;
   height: 14px;
   width: 14px;
@@ -131,7 +131,7 @@ main {
   background-color: var(--key-shadow-red);
 }
 
-.calc-display {
+.calc__display {
   background-color: var(--screen-background);
   margin-block-start: 2rem;
   height: 5rem;
@@ -144,7 +144,7 @@ main {
   font-weight: var(--font-wgt-600);
 }
 
-.calc-buttons {
+.calc__buttons {
   background-color: var(--toggle-background);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -192,30 +192,30 @@ main {
 }
 
 @media screen and (min-width: 535px) {
-  .app-container {
+  .app__container {
     width: 80%;
   }
 }
 @media screen and (min-width: 768px) {
-  .app-container {
+  .app__container {
     width: 60%;
   }
 }
 
 @media screen and (min-width: 820px) {
-  .app-container {
+  .app__container {
     width: 55%;
   }
 }
 @media screen and (min-width: 1020px) {
-  .app-container {
+  .app__container {
     width: 40%;
   }
-  .calc-display {
+  .calc__display {
     height: 6rem;
     line-height: 4.5rem;
   }
-  .calc-buttons {
+  .calc__buttons {
     gap: 1.5rem;
   }
   .button {
@@ -223,7 +223,7 @@ main {
   }
 }
 @media screen and (min-width: 1270px) {
-  .app-container {
+  .app__container {
     width: 30%;
   }
 }

@@ -222,8 +222,4 @@ main {
     height: 45px;
   }
 }
-@media screen and (min-width: 1270px) {
-  .app__container {
-    width: 30%;
-  }
-}
+

@@ -1,4 +1,12 @@
-# Frontend Mentor - Calculator app solution
+<div align="center">
+  
+
+  <h1>Frontend Mentor - Calculator app solution</h1>
+  <a href="https://calculator-app-c.vercel.app/"><strong>➥ Live Demo</strong></a>
+
+</div>
+<br/>
+# 
 
 This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -28,22 +36,18 @@ Users should be able to:
 
 ![](./preview-images/calc-theme-1(desktop).png)
 
-![](./preview-images/calc-theme-1(mobile).png)
+![](./preview-images/calc-mobile.png)
 
 ![](./preview-images/calc-theme-2(desktop).png)
 
-![](./preview-images/calc-theme-2(mobile).png)
-
 ![](./preview-images/calc-theme-3(desktop).png)
-
-![](./preview-images/calc-theme-3(mobile).png)
 
 
 
 ### Links
 
-- Solution URL: [Click Here](https://your-solution-url.com)
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://github.com/sudhanshu287/calculator-app-frontend-mentor)
+- Live Site URL: [Click Here](https://calculator-app-c.vercel.app/)
 
 
 ## My process

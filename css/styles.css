@@ -25,6 +25,11 @@
   --font-wgt-400: 400;
   --font-wgt-600: 600;
   --font-wgt-700: 700;
+
+  /* 
+  Transition
+   */
+   --transition:.2s ease-in;
 }
 
 [data-theme="theme-2"] {
@@ -126,6 +131,7 @@ main {
   width: 14px;
   padding: 4px;
   cursor: pointer;
+  transition: var(--transition);
 }
 .btn.active {
   background-color: var(--key-shadow-red);

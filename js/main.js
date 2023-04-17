@@ -26,11 +26,11 @@ const setTheme3=()=>{
 
 let selectedTheme=localStorage.getItem("selectedTheme");
 
-if(selectedTheme==="theme-1"){
-    setTheme1();
-    theme1.classList.add('active');
+if(selectedTheme==="theme-3"){
+    setTheme3();
+    theme3.classList.add('active');
     theme2.classList.remove('active'); 
-    theme3.classList.remove('active'); 
+    theme1.classList.remove('active'); 
 }
 else if(selectedTheme==="theme-2"){
     setTheme2();
@@ -39,10 +39,10 @@ else if(selectedTheme==="theme-2"){
     theme3.classList.remove('active');
 }
 else{
-    setTheme3();
-    theme3.classList.add('active');
+    setTheme1();
+    theme1.classList.add('active');
     theme2.classList.remove('active'); 
-    theme1.classList.remove('active'); 
+    theme3.classList.remove('active'); 
 }
 theme1.addEventListener('click',()=>{
     setTheme1();  
